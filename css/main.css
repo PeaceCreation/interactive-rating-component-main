@@ -1,0 +1,203 @@
+/* Start  Global Rules */
+*{
+     padding:0;
+     margin:0;
+     box-sizing: border-box;
+}
+.container{
+     padding-right:15px;
+     padding-left:15px;
+     margin-right:auto;
+     margin-left: auto;
+}
+ul{
+     list-style:none;
+}
+body{
+     background-color:#131519;
+     font-family: 'Overpass', sans-serif;
+}
+/*  End Global Rules */
+
+
+/*  Start Inteructive */
+header{
+     position:absolute;
+     top: 47%;
+     left:50%;
+     transform: translate(-50%, -50%);
+}
+.boxes{
+     background-color: #212731;
+     margin-left: 10px;
+     padding-left: 30px;
+     padding-right: 30px;
+     padding-top: 30px;
+     padding-bottom:30px;
+     border-radius: 17px;
+}
+header .fa-star{
+     color: #FE7302;
+     background-color: #272E39;
+     padding-right: 18px;
+     padding-left: 17px;
+     padding-top: 14px;
+     padding-bottom: 15px;
+     border-radius: 50%;
+}
+header h2{
+     padding-top: 20px;
+     padding-bottom: 5px;
+     color:#fff;
+}
+header .text{
+     padding-top:5px;
+     padding-bottom: 5px;;
+}
+header .text p{
+     /* font-size: 15px;
+     line-height:1.6;
+     padding-top:5px;
+     padding-bottom:5px;
+     color:hsl(216deg 12% 54% / 98%); */
+     font-size: 15px;
+     line-height: 1.6;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     color:hsl(216deg 12% 54% / 98%);
+     font-family: 'Overpass', sans-serif;
+     font-weight: 400;
+}
+header .items{
+     padding-top: 15px;
+     padding-bottom: 15px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     gap:14px;
+}
+header .items li{
+     background-color: #272E39;
+     color: #758189;
+     padding-right: 20px;
+     padding-left: 20px;
+     padding-top: 15px;
+     padding-bottom: 15px;
+     border-radius: 50%;
+     cursor: pointer;
+}
+header .items li.active{
+     background-color: #F97716;
+     color:#fff;
+}
+header .items li.show{
+     background-color: #7D8898;
+     color:#fff;
+}
+header .btn {
+     padding-top:10px;
+     padding-bottom:10px;;
+}
+header .btn button{
+     border: none;
+     background-color: #FE7302;
+     width: 100%;
+     padding-top: 13px;
+     padding-bottom: 13px;
+     border-radius: 20px;
+     color: #fff;
+     text-transform: uppercase;
+     letter-spacing: 2px;
+     font-weight: bold;
+}
+
+header .btn button:hover,
+header .btn :hover a{
+     background-color:#fff;
+     color:#F97716;
+}
+header .btn button a{
+     text-decoration: none;
+     color:#fff;
+}
+
+/*  End Inteructive */
+/*  Start Submit  Box */
+.box{
+     width: 360px;
+     position: absolute;
+     top: 47%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     padding-right: 20px;
+     padding-left: 20px;
+     padding-top: 20px;
+     padding-bottom: 30px;
+     background-color: #212731;
+     border-radius: 17px;
+}
+.box .slider{
+     text-align: center;
+}
+.box .slider img{
+     padding-top: 20px;
+     padding-bottom: 20px;
+}
+.box .slider span{
+     color:#fff;
+     display: flex;
+     align-items: center;
+     background-color:#272E38;
+     width:180px;
+     margin:auto;
+     padding-top:10px;
+     padding-bottom:10px;
+     padding-right:14px;
+     padding-left: 14px;
+     border-radius: 34px;
+     color:hsl(25, 97%, 53%);
+}
+.box .slider span .output{
+     padding:4px;
+     font-weight:bold;
+}
+.box .slider h3{
+     padding-top: 15px;
+     padding-bottom: 20px;
+     color:#fff;
+     font-weight: bold;
+     font-size: 25px;
+}
+.box .contents{
+     text-align: center;
+}
+.box .contents .text p {
+     font-size: 15px;
+     line-height: 1.6;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     color:hsl(216deg 12% 54% / 98%);
+     font-family: 'Overpass', sans-serif;
+     font-weight: 400;
+}
+
+/*  End  Submit  Box */
+
+/*  Start Queries */
+@media( min-width: 768px){
+     .container{
+          max-width:720px;
+     }
+}
+@media(min-width:992px){
+     .container{
+          max-width:960px;
+     }
+}
+
+@media(min-width:1440px){
+     .container{
+          max-width:1400px;
+     }
+}
+/*  End Queries */
